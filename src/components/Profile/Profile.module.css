@@ -1,0 +1,66 @@
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid;
+  border-radius: 10px;
+  width: 400px;
+  height: 461;
+  margin-top: 30px;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  align-items: center;
+  gap: 10px;
+}
+
+.userInfo > img {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.userInfo > p {
+  font-size: 25px;
+  color: gray;
+}
+
+.userInfo > p:nth-child(2) {
+  font-size: 35px;
+  font-weight: 700;
+  color: black;
+}
+
+.statsList {
+  display: flex;
+  justify-content: space-between;
+  width: 396px;
+  background-color: lightgray;
+  margin-top: 15px;
+  list-style: none;
+  box-sizing: border-box;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.statsList > li {
+  width: calc(100% / 3);
+  border: 2px solid grey;
+  border-bottom: none;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  align-items: center;
+}
+.statsList > li:first-child,
+.statsList > li:last-child {
+  border-left: none;
+  border-right: none;
+}
+
+.statsList > li > span:last-child {
+  font-weight: 700;
+}
