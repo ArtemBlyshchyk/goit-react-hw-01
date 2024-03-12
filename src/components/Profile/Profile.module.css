@@ -7,6 +7,7 @@
   width: 400px;
   height: 461;
   margin-top: 30px;
+  overflow: hidden;
 }
 
 .userInfo {
@@ -41,10 +42,6 @@
   width: 396px;
   background-color: lightgray;
   margin-top: 15px;
-  list-style: none;
-  box-sizing: border-box;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
 }
 .statsList > li {
   width: calc(100% / 3);
